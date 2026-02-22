@@ -54,9 +54,10 @@ def main():
     print("Title:\n")    
     print(to_get_title(soup)) # now print title
     print("\nBody:\n")
-    print(to_get_body_contents(soup))  # noow print body text
+    print(to_get_body_contents(soup))  # noow print body contents
     print("\nLinks:\n")
     for link in to_get_links(soup, url):
         print(link)  # now print all links
 if __name__ == "__main__":   # it will ensure that if file will direct run then main will be executed 
     main()
+
