@@ -1,11 +1,22 @@
 # SEIR
 
-This program takes a URL as a command line argument and then fetch webpages, and will prints:
- * Page Title (without html tags)
- * Page Body (plain text and I tried to remove html tags.
- * ALL urls that the page links to
+##  SEIR – Assignment Repository
 
-The program uses the requests library to fetch the webpage and BeautifulSoup to parse HTML content.
+This repository contains academic assignments related to Search Engine & Information Retrieval (SEIR).
+It includes implementation-based programs developed using Python.
+
+Note: This repository is strictly maintained for assignment submission purposes only.
+## Files Included
+
+### Assignment1_scrap_142.py → Web Scraping Program
+### simhash.py → SimHash Algorithm Implementation
+
+ Web Scraping Program
+Description
+This Python program takes a webpage URL as a command-line argument, fetches the webpage, and extracts:
+Page Title (clean text, without HTML tags)
+Page Body (plain readable text)
+All hyperlinks present on that webpage
 
 ## Libraries Used 
 * sys:- to take command line input
@@ -32,3 +43,18 @@ If the URL contains brackets, use quotes: like that python Assignment1_142.py "h
 Some modern websites use JavaScript to load content dynamically.
 In such cases, the program may not extract full content because requests does not execute JavaScript.
 SSL verification was disabled in this project to avoid local certificate errors during development.
+
+
+## SimHash Calculation Program
+ Description
+
+This program implements the SimHash algorithm, which is commonly used to detect similarity between documents.
+
+### Purpose
+Generate a fingerprint of textual data
+Compare similarity between documents
+Detect near-duplicate content
+
+## Academic Declaration
+This repository is created for academic coursework submission under SEIR.
+All implementations are developed for learning and demonstration purposes.
